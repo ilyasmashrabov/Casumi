@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+}
+.intro-section{
+    width: 100%;
+    background: url('img/backgraund-img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.intro-section h1{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-top: 124px;
+  margin-bottom: 179px;
+}
+.navbar-brand{
+    margin-top: 25px;
+}
+.navbar-dark .navbar-nav .nav-link{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #FFFFFF;
+}
+.competency{
+    background: #16133E;    
+}
+.competency h3{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 124px;
+  margin-bottom: 171px;
+}
+.service_card{
+  background: #FFFFFF;
+  box-shadow: 0px 15px 24px rgba(64, 90, 128, 0.05);
+  margin-top: 40px;
+}
+.service_card img{
+    margin-top: 48px;
+    margin-bottom: 32px;
+    margin-left: 40px;
+}
+.service_card h5{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #16133E;
+  margin-left: 40px;
+}
+.service_card p{
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #636A75;
+  padding-left: 40px;
+  padding-bottom: 49px;
+}
+.main{
+  margin-top: -120px;
+}
+.approach h2{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #16133E;
+  margin-top: 124px;
+}
+.img_1{
+    margin-top: 69px;
+}
+.approach_card_1{
+  background: #FFFFFF;
+  box-shadow: 0px 15px 24px rgba(64, 90, 128, 0.05);
+  margin-top: 109px;
+}
+.approach_card_1 h1{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: column;
+  color: #16133E;
+  padding-top: 60px;
+  padding-left: 85px;
+}
+.approach_card_1 h4{
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #16133E;
+  padding-left: 126px;
+}
+.approach_card_1 p{
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #636A75;
+  padding-top: 23px;
+  padding-left: 125px;
+}
+.approach_card_text{
+    padding-bottom: 66px;
+}
+
+.hundreds{
+    width: 100%;
+    background: url("img/squares.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #16133E;
+}
+.hundreds h2{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 145px;
+}
+.hundreds button{
+  width: 170px;
+  height: 40px;
+  background: #F53B30;
+  border-radius: 50px;
+  border: none;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 45px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 97px;
+
+}
+.hundreds_img{
+    margin-bottom: 156px;
+}
+.footer{
+    background: #FFFFFF;
+    margin-top: 25px;
+}
+.logo-2{
+    margin-top: 50px;
+}
+.logo-3{
+  margin-top: 15px;
+}
+.logo-3 a{
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.footer_ul{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8B8F95;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  
+  
+}
+.footer_ul a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #8B8F95;
+}
+.footer p{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #8B8F95;
+  margin-top: 50px;
+}
+.footer h4{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #16133E;
+  margin-top: 50px;
+}
+.footer_li a{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8B8F95;
+  text-decoration: none;
+}
+@media (max-width: 576px){
+    .footer_ul_li a{
+        text-align: left;
+    }
+    .footer h4{
+        text-align: left;
+    }
+}
+@media (max-width: 992px){
+    .footer p{
+        text-align: left;
+    }
+}
+@media (max-width: 400px){
+    .footer_ul_li a{
+        display: block;
+    }
+}
+@media (max-width: 500px){
+  .footer p{
+    margin-top: 15px;
+  }
+  .footer_ul_li a{
+    margin-top: 15px !important;
+  }
+  .footer_ul a{
+    margin-top: 15px !important;
+  }
+}
