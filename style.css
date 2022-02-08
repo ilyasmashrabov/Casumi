@@ -19,7 +19,7 @@ ul li{
 }
 .intro-section{
     width: 100%;
-    background: url('img/backgraund-img.png');
+    background: url('backgraund-img.png');
     background-repeat: no-repeat;
     background-size: cover;
 }   
